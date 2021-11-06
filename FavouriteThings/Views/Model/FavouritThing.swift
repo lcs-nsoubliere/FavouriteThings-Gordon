@@ -28,23 +28,17 @@ let listOfItems = [
                   bodyText: "Body text")
     ,
     
-    FavouritThing(imageName: "Cheesecake", title: "Cheesecake", navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "Cheesecake", title: "Cheesecake", navigationSubtitle: "navigationSubtitle", imageCaption: "imageCaption", imageCredit: "imageCredit", bodyText: "bodyText")
     ,
     
-    FavouritThing(imageName: "Claire", title: "Calire", navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "Claire", title: "Calire", navigationSubtitle: "navigationSubtitle", imageCaption: "imageCaption", imageCredit: "imageCredit", bodyText: "bodyText")
     ,
     
-    FavouritThing(imageName: "Jen", title: "Jen", navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "Jen", title: "Jen", navigationSubtitle: "navigationSubtitle", imageCaption: "imageCaption", imageCredit: "imageCredit", bodyText: "bodyText")
     ,
     
-    FavouritThing(imageName: "Lasagna", title: "Lasagna", navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "Lasagna", title: "Lasagna", navigationSubtitle: "navigationSubtitle", imageCaption: "imageCaption", imageCredit: "imageCredit", bodyText: "bodyText")
     ,
     
-    FavouritThing(imageName: "Piper", title: "Piper", navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "Piper", title: "Piper", navigationSubtitle: "navigationSubtitle", imageCaption: "imageCaption", imageCredit: "imageCredit", bodyText: "")
 ]
-
-struct FavouritThing_Previews: PreviewProvider {
-    static var previews: some View {
-        FavouritThing()
-    }
-}

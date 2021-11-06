@@ -36,7 +36,7 @@
 		819368A627317DA100BBAEDF /* ClaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaireView.swift; sourceTree = "<group>"; };
 		819368A827317DAC00BBAEDF /* LasagnaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasagnaView.swift; sourceTree = "<group>"; };
 		C88C62E3273565DA009ECB72 /* FavouritThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritThing.swift; sourceTree = "<group>"; };
-		C88C62E627357016009ECB72 /* EnhancedListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnhancedListItemView.swift; path = Shared/EnhancedListItemView.swift; sourceTree = "<group>"; };
+		C88C62E627357016009ECB72 /* EnhancedListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnhancedListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,6 @@
 			children = (
 				C88C62E527356C3D009ECB72 /* Model */,
 				0EBBDA182731BD05004DCA14 /* Shared */,
-				C88C62E627357016009ECB72 /* EnhancedListItemView.swift */,
 				0E0A13B0272631150050231A /* FavouriteThingsListView.swift */,
 				0E0A13AD2722CEF60050231A /* BlueJaysView.swift */,
 				0EDBF7E32721F4AE00F21448 /* CheesecakeView.swift */,
@@ -71,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				0EBBDA192731BD3E004DCA14 /* PhotoCaptionView.swift */,
+				C88C62E627357016009ECB72 /* EnhancedListItemView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";

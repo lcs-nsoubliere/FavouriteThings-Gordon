@@ -20,22 +20,27 @@ struct FavouritThing {
 
 let listOfItems = [
     
-    FavouritThing(imageName: "BlueJays", title: <#T##String#>, navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "BlueJays",
+                  title: "Blue Jays",
+                  navigationSubtitle: "navigationsubtitle",
+                  imageCaption: "Photo caption",
+                  imageCredit: "image credit",
+                  bodyText: "Body text")
     ,
     
-    FavouritThing(imageName: "Cheesecake", title: <#T##String#>, navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "Cheesecake", title: "Cheesecake", navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
     ,
     
-    FavouritThing(imageName: "Claire", title: <#T##String#>, navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "Claire", title: "Calire", navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
     ,
     
-    FavouritThing(imageName: "Jen", title: <#T##String#>, navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "Jen", title: "Jen", navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
     ,
     
-    FavouritThing(imageName: "Lasagna", title: <#T##String#>, navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "Lasagna", title: "Lasagna", navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
     ,
     
-    FavouritThing(imageName: "Piper", title: <#T##String#>, navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
+    FavouritThing(imageName: "Piper", title: "Piper", navigationSubtitle: <#T##String#>, imageCaption: <#T##String#>, imageCredit: <#T##String#>, bodyText: <#T##String#>)
 ]
 
 struct FavouritThing_Previews: PreviewProvider {
